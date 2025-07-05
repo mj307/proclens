@@ -45,14 +45,14 @@ func main() {
 		if err != nil || name == "" {
 			continue
 		}
-		pid := p.Pid // ✅ FIXED HERE
+		pid := p.Pid 
 
 		// initial CPU read (ignored, sets baseline)
 		_, _ = p.CPUPercent()
 		time.Sleep(200 * time.Millisecond) // wait to sample over time
 		cpu, err := p.CPUPercent()
 		if err != nil {
-			continue // ✅ FIXED HERE
+			continue 
 		}
 
 		// memory usage
