@@ -2,11 +2,13 @@
 
 **Filter and optionally kill high-resource processes with ease.**
 
+**Built with Go**
+
 ## Features
 - Lists all running processes with CPU and memory usage.
 - Filters processes by CPU percentage and RAM (MB) thresholds.
 - Optionally kills matching processes with a single flag.
-- Lightweight CLI tool built in Go for performance and portability.
+
 
 ## Installation
 Using Homebrew:
