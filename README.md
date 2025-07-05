@@ -1,6 +1,6 @@
 # Proclens
 
-**Filter and optionally kill high-resource processes with ease.**
+**Filter and optionally kill processes using a lot of resources with ease.**
 
 **Built with Go**
 
